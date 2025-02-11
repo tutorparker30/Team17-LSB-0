@@ -13,6 +13,7 @@
     </None>
     <None Include="..\..\.gitignore.txt" />
     <None Include="..\..\.gitstatttibutes.txt" />
+    <None Include="..\..\.vsconfig" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -47,10 +48,16 @@
     <ClCompile Include="..\..\Source\Test\Private\MyActor.cpp">
       <Filter>Source\Test\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Test\Private\TestMyActor.cpp">
+      <Filter>Source\Test\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\Test\Public">
       <UniqueIdentifier>{0193F072-BAEA-34CB-BD0E-51F2E3FC13DE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Test\Public\MyActor.h">
+      <Filter>Source\Test\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\Public\TestMyActor.h">
       <Filter>Source\Test\Public</Filter>
     </ClCompile>
   </ItemGroup>
